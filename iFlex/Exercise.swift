@@ -7,3 +7,21 @@
 //
 
 import Foundation
+import UIKit
+
+struct Exercise {           // make this a class to allow inheritance?
+    var name: String
+    var icon: UIImage           // ?
+    var instructions: UIImage   // ?
+    var equipment: [String]
+    var muscleGroups: [String]
+    var difficulty: Float
+    //var author: String
+}
+
+/*
+struct MyExercise: Exercise {
+    var weight: Float
+    var reps: Int
+    var sets: Int
+}*/

@@ -14,6 +14,8 @@
 		246E57A8218B713300C7C700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246E57A6218B713300C7C700 /* LaunchScreen.storyboard */; };
 		246E57B3218B713300C7C700 /* iFlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57B2218B713300C7C700 /* iFlexTests.swift */; };
 		246E57BE218B713300C7C700 /* iFlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57BD218B713300C7C700 /* iFlexUITests.swift */; };
+		246E57CC218B73C300C7C700 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57CB218B73C300C7C700 /* Exercise.swift */; };
+		246E57CE218B744300C7C700 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57CD218B744300C7C700 /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		246E57B9218B713300C7C700 /* iFlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		246E57BD218B713300C7C700 /* iFlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFlexUITests.swift; sourceTree = "<group>"; };
 		246E57BF218B713300C7C700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246E57CB218B73C300C7C700 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		246E57CD218B744300C7C700 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				246E579D218B713200C7C700 /* AppDelegate.swift */,
 				246E579F218B713200C7C700 /* ViewController.swift */,
+				246E57CB218B73C300C7C700 /* Exercise.swift */,
+				246E57CD218B744300C7C700 /* Workout.swift */,
 				246E57A1218B713200C7C700 /* Main.storyboard */,
 				246E57A4218B713300C7C700 /* Assets.xcassets */,
 				246E57A6218B713300C7C700 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				246E57A0218B713200C7C700 /* ViewController.swift in Sources */,
 				246E579E218B713200C7C700 /* AppDelegate.swift in Sources */,
+				246E57CC218B73C300C7C700 /* Exercise.swift in Sources */,
+				246E57CE218B744300C7C700 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
