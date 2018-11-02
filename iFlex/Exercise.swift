@@ -15,7 +15,7 @@ struct Exercise {           // make this a class to allow inheritance?
     var instructions: UIImage   // ?
     var equipment: [String]
     var muscleGroups: [String]
-    var difficulty: Float
+    var difficulty: Int             // value from 1-3: 1 = Easy, 2 = Medium, 3 = Hard
     //var author: String
 }
 

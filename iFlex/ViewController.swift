@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // This will be the Favorites view (for now)
+        // Populate UITableView with all saved workouts
+        // Create New Workout button
     }
 
     override func didReceiveMemoryWarning() {
