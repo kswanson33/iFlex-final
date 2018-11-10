@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct Workout {
+struct Workout: Codable {
     var title: String
     var time: TimeInterval      // specified in seconds -- is there a better data type?
-    var exercises: [(Exercise, Int)]    // array of pairs: (exercise, number of reps)
+    var exercises: [MyExercise]    // array of pairs: (exercise, number of reps)
     var iterations: Int
     var difficulty: Int         // value from 1-3: 1 = Easy, 2 = Medium, 3 = Hard
     var tags: [String]

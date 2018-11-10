@@ -17,6 +17,16 @@ class ViewController: UIViewController {
         // Populate UITableView with all saved workouts
         // Create New Workout button
     }
+    
+    func loadFavorites() {
+        
+    }
+    
+    func writeToFavorites(_ workout: Workout) {
+        let path = Bundle.main.path(forResource: "Favorites", ofType: "plist")
+        //let data = try! PropertyListEncoder().encode()
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
