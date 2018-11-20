@@ -9,15 +9,16 @@
 import Foundation
 import UIKit
 
-struct Exercise: Codable {           // make this a class to allow inheritance?
+struct Exercise: Codable {
     var name: String
-    //var icon: UIImage!           // UIImages are not codable
-    var instructionalVideo: URL?
+    var instructionalVideo: String
     var directions: String
     var equipment: [String]
     var muscleGroups: [String]
-    var difficulty: Int             // value from 1-3: 1 = Easy, 2 = Medium, 3 = Hard
-    //var author: String
+    var difficulty: Int             // value from 1-5
+    var commonMistakes: String
+    var substitutions: String
+    var icon: MuscleGroup
 }
 
 struct MyExercise: Codable {
@@ -26,3 +27,15 @@ struct MyExercise: Codable {
     var reps: Int
     var sets: Int
 }
+enum MuscleGroup: String, Codable {
+    case hamstrings
+    case glutes
+    case quads
+    case calves
+    case hips
+    case core
+    case abductors
+    case lowerBack
+    case upperBack
+}
+
