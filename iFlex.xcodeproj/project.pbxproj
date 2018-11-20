@@ -20,6 +20,17 @@
 		246E57D2218BCC6700C7C700 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57D1218BCC6700C7C700 /* ExerciseDetailViewController.swift */; };
 		246E57D4218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57D3218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift */; };
 		246E57D6218BCE2D00C7C700 /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57D5218BCE2D00C7C700 /* ExerciseListViewController.swift */; };
+		247F835B21A3BFFE00993723 /* browseNowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F835A21A3BFFE00993723 /* browseNowScreen.swift */; };
+		247F835D21A3C01000993723 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F835C21A3C00F00993723 /* User.swift */; };
+		247F835F21A3C01300993723 /* profIleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F835E21A3C01300993723 /* profIleScreen.swift */; };
+		247F836121A3C04A00993723 /* exerciseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836021A3C04A00993723 /* exerciseScreen.swift */; };
+		247F836321A3C05700993723 /* favoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836221A3C05700993723 /* favoritesScreen.swift */; };
+		247F836521A3C06000993723 /* LocalDataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836421A3C06000993723 /* LocalDataFunctions.swift */; };
+		247F836721A3C07900993723 /* loginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836621A3C07900993723 /* loginScreen.swift */; };
+		247F836921A3C08800993723 /* newUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836821A3C08700993723 /* newUserScreen.swift */; };
+		247F836B21A3C09100993723 /* pickYourWorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836A21A3C09000993723 /* pickYourWorkoutScreen.swift */; };
+		247F836D21A3C0A800993723 /* workoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836C21A3C0A800993723 /* workoutScreen.swift */; };
+		247F836F21A3C0AE00993723 /* yourExercisesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F836E21A3C0AE00993723 /* yourExercisesScreen.swift */; };
 		24963ABD219769C400E3E35B /* Favorites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24963ABC219769C400E3E35B /* Favorites.plist */; };
 		655477D18D226067E4721A93 /* Pods_iFlexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEA12990E390252E179706 /* Pods_iFlexTests.framework */; };
 		68F3AABA21A39E9100DF1B05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */; };
@@ -68,6 +79,17 @@
 		246E57D1218BCC6700C7C700 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
 		246E57D3218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewWorkoutViewController.swift; sourceTree = "<group>"; };
 		246E57D5218BCE2D00C7C700 /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		247F835A21A3BFFE00993723 /* browseNowScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = browseNowScreen.swift; sourceTree = "<group>"; };
+		247F835C21A3C00F00993723 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		247F835E21A3C01300993723 /* profIleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profIleScreen.swift; sourceTree = "<group>"; };
+		247F836021A3C04A00993723 /* exerciseScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exerciseScreen.swift; sourceTree = "<group>"; };
+		247F836221A3C05700993723 /* favoritesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesScreen.swift; sourceTree = "<group>"; };
+		247F836421A3C06000993723 /* LocalDataFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataFunctions.swift; sourceTree = "<group>"; };
+		247F836621A3C07900993723 /* loginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginScreen.swift; sourceTree = "<group>"; };
+		247F836821A3C08700993723 /* newUserScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newUserScreen.swift; sourceTree = "<group>"; };
+		247F836A21A3C09000993723 /* pickYourWorkoutScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickYourWorkoutScreen.swift; sourceTree = "<group>"; };
+		247F836C21A3C0A800993723 /* workoutScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = workoutScreen.swift; sourceTree = "<group>"; };
+		247F836E21A3C0AE00993723 /* yourExercisesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yourExercisesScreen.swift; sourceTree = "<group>"; };
 		24963ABC219769C400E3E35B /* Favorites.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Favorites.plist; sourceTree = "<group>"; };
 		67FC1779EEBD69B569E1C07F /* Pods_iFlex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFlex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -133,19 +155,30 @@
 			isa = PBXGroup;
 			children = (
 				246E579D218B713200C7C700 /* AppDelegate.swift */,
-				246E579F218B713200C7C700 /* ViewController.swift */,
-				24963ABC219769C400E3E35B /* Favorites.plist */,
-				246E57CB218B73C300C7C700 /* Exercise.swift */,
-				246E57CD218B744300C7C700 /* Workout.swift */,
+				247F835A21A3BFFE00993723 /* browseNowScreen.swift */,
 				246E57D3218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift */,
-				246E57D5218BCE2D00C7C700 /* ExerciseListViewController.swift */,
-				246E57CF218BCC5700C7C700 /* WorkoutDetailViewController.swift */,
+				246E57CB218B73C300C7C700 /* Exercise.swift */,
 				246E57D1218BCC6700C7C700 /* ExerciseDetailViewController.swift */,
+				246E57D5218BCE2D00C7C700 /* ExerciseListViewController.swift */,
+				247F836021A3C04A00993723 /* exerciseScreen.swift */,
+				24963ABC219769C400E3E35B /* Favorites.plist */,
+				247F836221A3C05700993723 /* favoritesScreen.swift */,
+				68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */,
+				246E57A9218B713300C7C700 /* Info.plist */,
+				247F836421A3C06000993723 /* LocalDataFunctions.swift */,
+				247F836621A3C07900993723 /* loginScreen.swift */,
+				247F836821A3C08700993723 /* newUserScreen.swift */,
+				247F836A21A3C09000993723 /* pickYourWorkoutScreen.swift */,
+				247F835E21A3C01300993723 /* profIleScreen.swift */,
+				247F835C21A3C00F00993723 /* User.swift */,
+				246E579F218B713200C7C700 /* ViewController.swift */,
+				246E57CD218B744300C7C700 /* Workout.swift */,
+				246E57CF218BCC5700C7C700 /* WorkoutDetailViewController.swift */,
+				247F836C21A3C0A800993723 /* workoutScreen.swift */,
+				247F836E21A3C0AE00993723 /* yourExercisesScreen.swift */,
 				246E57A1218B713200C7C700 /* Main.storyboard */,
 				246E57A4218B713300C7C700 /* Assets.xcassets */,
 				246E57A6218B713300C7C700 /* LaunchScreen.storyboard */,
-				68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */,
-				246E57A9218B713300C7C700 /* Info.plist */,
 			);
 			path = iFlex;
 			sourceTree = "<group>";
@@ -475,13 +508,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				246E57D0218BCC5700C7C700 /* WorkoutDetailViewController.swift in Sources */,
+				247F836D21A3C0A800993723 /* workoutScreen.swift in Sources */,
 				246E57D4218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift in Sources */,
+				247F835B21A3BFFE00993723 /* browseNowScreen.swift in Sources */,
+				247F836F21A3C0AE00993723 /* yourExercisesScreen.swift in Sources */,
 				246E57A0218B713200C7C700 /* ViewController.swift in Sources */,
 				246E579E218B713200C7C700 /* AppDelegate.swift in Sources */,
+				247F835F21A3C01300993723 /* profIleScreen.swift in Sources */,
 				246E57D6218BCE2D00C7C700 /* ExerciseListViewController.swift in Sources */,
+				247F836921A3C08800993723 /* newUserScreen.swift in Sources */,
+				247F836321A3C05700993723 /* favoritesScreen.swift in Sources */,
+				247F836121A3C04A00993723 /* exerciseScreen.swift in Sources */,
+				247F836721A3C07900993723 /* loginScreen.swift in Sources */,
 				246E57CC218B73C300C7C700 /* Exercise.swift in Sources */,
 				246E57CE218B744300C7C700 /* Workout.swift in Sources */,
+				247F835D21A3C01000993723 /* User.swift in Sources */,
+				247F836B21A3C09100993723 /* pickYourWorkoutScreen.swift in Sources */,
 				246E57D2218BCC6700C7C700 /* ExerciseDetailViewController.swift in Sources */,
+				247F836521A3C06000993723 /* LocalDataFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

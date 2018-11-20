@@ -13,7 +13,7 @@
         <!--Login Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="loginScreen" id="BYZ-38-t0r" customClass="loginScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginScreen" id="BYZ-38-t0r" customClass="loginScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
         <!--Item 2-->
         <scene sceneID="NLl-4W-sQE">
             <objects>
-                <viewController storyboardIdentifier="favoritesScreen" id="RND-fM-oC6" customClass="favoritesScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="favoritesScreen" id="RND-fM-oC6" customClass="favoritesScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Xf-Yc-mez">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,7 +80,7 @@
         <!--Pick Your Workout Screen-->
         <scene sceneID="zH2-hM-MUP">
             <objects>
-                <viewController id="30S-nq-kc1" customClass="pickYourWorkoutScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="30S-nq-kc1" customClass="pickYourWorkoutScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NMB-Pn-1Q7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +98,7 @@
         <!--Your Exercises Screen-->
         <scene sceneID="6hX-KF-dk5">
             <objects>
-                <viewController id="Olm-6b-tmG" customClass="yourExercisesScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Olm-6b-tmG" customClass="yourExercisesScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jfB-JB-Fys">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,7 @@
         <!--Item-->
         <scene sceneID="iMC-bJ-DgJ">
             <objects>
-                <viewController id="ix2-QX-Yru" customClass="profIleScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ix2-QX-Yru" customClass="profIleScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H7E-sF-h3h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,7 +129,7 @@
         <!--Item 1-->
         <scene sceneID="kmL-KA-JzV">
             <objects>
-                <viewController id="InG-gq-eas" customClass="browseNowScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="InG-gq-eas" customClass="browseNowScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LKo-NJ-Mrh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
         <!--Workout Screen-->
         <scene sceneID="AkT-Gy-7M5">
             <objects>
-                <viewController id="tdJ-wm-yw0" customClass="workoutScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tdJ-wm-yw0" customClass="workoutScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MW0-9T-zeh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,7 +167,7 @@
         <!--Exercise Screen-->
         <scene sceneID="jDQ-YD-kbG">
             <objects>
-                <viewController id="Mg2-6o-acY" customClass="exerciseScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Mg2-6o-acY" customClass="exerciseScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vda-Xl-Aio">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
         <!--New User Screen-->
         <scene sceneID="QJQ-vt-8Xd">
             <objects>
-                <viewController storyboardIdentifier="newUserScreen" id="VaE-lC-ilk" customClass="newUserScreen" customModule="Storyboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="newUserScreen" id="VaE-lC-ilk" customClass="newUserScreen" customModule="iFlex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aTV-Le-l6x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
