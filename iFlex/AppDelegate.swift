@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  iFlex
+//  Storyboards
 //
-//  Created by Kendra Swanson on 11/1/18.
-//  Copyright © 2018 Kendra Swanson, Christina Stellwagen, Carla Beghin, Benjamin Gu. All rights reserved.
+//  Created by Carla Beghin on 11/13/18.
+//  Copyright © 2018 CSE438. All rights reserved.
 //
 
 import UIKit
