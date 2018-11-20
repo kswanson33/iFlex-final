@@ -21,9 +21,12 @@
 		246E57D4218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57D3218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift */; };
 		246E57D6218BCE2D00C7C700 /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E57D5218BCE2D00C7C700 /* ExerciseListViewController.swift */; };
 		24963ABD219769C400E3E35B /* Favorites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24963ABC219769C400E3E35B /* Favorites.plist */; };
+		655477D18D226067E4721A93 /* Pods_iFlexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEA12990E390252E179706 /* Pods_iFlexTests.framework */; };
 		68F3AABA21A39E9100DF1B05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */; };
 		68F3AABB21A39E9100DF1B05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */; };
 		68F3AABC21A39E9100DF1B05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */; };
+		864FC06002254ECF692A4E1E /* Pods_iFlexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6661CD2661D1B3746FE9904 /* Pods_iFlexUITests.framework */; };
+		EA0456F5631FD07E17FE7BB6 /* Pods_iFlex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FC1779EEBD69B569E1C07F /* Pods_iFlex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2090C09EE0B6F455E54DEF46 /* Pods-iFlex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFlex.release.xcconfig"; path = "Pods/Target Support Files/Pods-iFlex/Pods-iFlex.release.xcconfig"; sourceTree = "<group>"; };
+		21C79343079346B80F7E6FE8 /* Pods-iFlexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFlexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iFlexUITests/Pods-iFlexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		246E579A218B713200C7C700 /* iFlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246E579D218B713200C7C700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		246E579F218B713200C7C700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +69,14 @@
 		246E57D3218BCE1A00C7C700 /* CreateNewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewWorkoutViewController.swift; sourceTree = "<group>"; };
 		246E57D5218BCE2D00C7C700 /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
 		24963ABC219769C400E3E35B /* Favorites.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Favorites.plist; sourceTree = "<group>"; };
+		67FC1779EEBD69B569E1C07F /* Pods_iFlex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFlex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F3AAB921A39E9100DF1B05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E1DDAD495E68E7202E280A2 /* Pods-iFlexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFlexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iFlexUITests/Pods-iFlexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BBEA12990E390252E179706 /* Pods_iFlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFlexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC77C82DFA6D96FC59C60B0F /* Pods-iFlex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFlex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iFlex/Pods-iFlex.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD767416970FC509AE2DFE4 /* Pods-iFlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFlexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iFlexTests/Pods-iFlexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C13D50ADE4E9BD8EA66D1901 /* Pods-iFlexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFlexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iFlexTests/Pods-iFlexTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6661CD2661D1B3746FE9904 /* Pods_iFlexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFlexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0456F5631FD07E17FE7BB6 /* Pods_iFlex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655477D18D226067E4721A93 /* Pods_iFlexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864FC06002254ECF692A4E1E /* Pods_iFlexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,8 @@
 				246E57B1218B713300C7C700 /* iFlexTests */,
 				246E57BC218B713300C7C700 /* iFlexUITests */,
 				246E579B218B713200C7C700 /* Products */,
+				DF6F4E43793DE07D81887BE5 /* Pods */,
+				9AB4282ABA58B725B4E41DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +168,29 @@
 			path = iFlexUITests;
 			sourceTree = "<group>";
 		};
+		9AB4282ABA58B725B4E41DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67FC1779EEBD69B569E1C07F /* Pods_iFlex.framework */,
+				8BBEA12990E390252E179706 /* Pods_iFlexTests.framework */,
+				D6661CD2661D1B3746FE9904 /* Pods_iFlexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6F4E43793DE07D81887BE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC77C82DFA6D96FC59C60B0F /* Pods-iFlex.debug.xcconfig */,
+				2090C09EE0B6F455E54DEF46 /* Pods-iFlex.release.xcconfig */,
+				ADD767416970FC509AE2DFE4 /* Pods-iFlexTests.debug.xcconfig */,
+				C13D50ADE4E9BD8EA66D1901 /* Pods-iFlexTests.release.xcconfig */,
+				21C79343079346B80F7E6FE8 /* Pods-iFlexUITests.debug.xcconfig */,
+				7E1DDAD495E68E7202E280A2 /* Pods-iFlexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 246E57C2218B713300C7C700 /* Build configuration list for PBXNativeTarget "iFlex" */;
 			buildPhases = (
+				216DDE9DB65DD33067CC73DF /* [CP] Check Pods Manifest.lock */,
 				246E5796218B713200C7C700 /* Sources */,
 				246E5797218B713200C7C700 /* Frameworks */,
 				246E5798218B713200C7C700 /* Resources */,
+				D494241264B75A424BBF8CCD /* [CP] Embed Pods Frameworks */,
+				DD5B8617A3508C55A10BCA8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 246E57C5218B713300C7C700 /* Build configuration list for PBXNativeTarget "iFlexTests" */;
 			buildPhases = (
+				CED7CEDAFEA9AE5674CC950A /* [CP] Check Pods Manifest.lock */,
 				246E57AA218B713300C7C700 /* Sources */,
 				246E57AB218B713300C7C700 /* Frameworks */,
 				246E57AC218B713300C7C700 /* Resources */,
@@ -193,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 246E57C8218B713300C7C700 /* Build configuration list for PBXNativeTarget "iFlexUITests" */;
 			buildPhases = (
+				881018B8C3E4564754A5892A /* [CP] Check Pods Manifest.lock */,
 				246E57B5218B713300C7C700 /* Sources */,
 				246E57B6218B713300C7C700 /* Frameworks */,
 				246E57B7218B713300C7C700 /* Resources */,
@@ -280,6 +325,149 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		216DDE9DB65DD33067CC73DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFlex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881018B8C3E4564754A5892A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFlexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED7CEDAFEA9AE5674CC950A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFlexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D494241264B75A424BBF8CCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iFlex/Pods-iFlex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iFlex/Pods-iFlex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5B8617A3508C55A10BCA8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iFlex/Pods-iFlex-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iFlex/Pods-iFlex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		246E5796218B713200C7C700 /* Sources */ = {
@@ -464,6 +652,7 @@
 		};
 		246E57C3218B713300C7C700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC77C82DFA6D96FC59C60B0F /* Pods-iFlex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +670,7 @@
 		};
 		246E57C4218B713300C7C700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2090C09EE0B6F455E54DEF46 /* Pods-iFlex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +688,7 @@
 		};
 		246E57C6218B713300C7C700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD767416970FC509AE2DFE4 /* Pods-iFlexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +709,7 @@
 		};
 		246E57C7218B713300C7C700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13D50ADE4E9BD8EA66D1901 /* Pods-iFlexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +730,7 @@
 		};
 		246E57C9218B713300C7C700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C79343079346B80F7E6FE8 /* Pods-iFlexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +750,7 @@
 		};
 		246E57CA218B713300C7C700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1DDAD495E68E7202E280A2 /* Pods-iFlexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
